@@ -1,0 +1,217 @@
+/***** BASE STYLES *****/
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+#about, #skills, #contact {
+  background-color: #fafafa;
+  height: 650px;
+}
+
+/***** GRID *****/
+
+.full-width {
+  margin: 0 auto;
+  width: 1400px;
+}
+
+.half-width {
+  float: left;
+  width: 700px;
+}
+
+.third-width {
+  float: left;
+  width: 450px;
+}
+
+.two-thirds-width {
+  float: left;
+  width: 900px;
+}
+
+/***** HEADER *****/
+
+header {
+  height: 150px;
+}
+
+header h1 {
+  color: #578ca9;
+  font-family: 'Sacramento', cursive;
+  font-size: 50px;
+  padding-left: 50px;
+}
+
+nav {
+  float: right;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  color: #8c8c8c;
+  font-variant: small-caps;
+  font-size: 18px;
+  padding-right: 80px;
+  text-decoration: none;
+}
+
+/***** HOMEPAGE *****/
+
+#homepage {
+  height: 700px;
+}
+
+#homepage h2 {
+  color: #57a98c;
+  font-size: 42px;
+  line-height: 60px;
+  padding-left: 150px;
+  padding-top: 240px;
+}
+
+#images {
+  position: relative;
+}
+
+.image-one {
+  padding-left: 25px;
+  padding-top: 150px;
+  position: absolute;
+  z-index: 1;
+}
+
+.image-two {
+  padding-left: 300px;
+  position: relative;
+  top: -100px;
+}
+
+/***** ABOUT *****/
+
+#about .third-width {
+  padding-left: 200px;
+  text-align: center;
+  width: 300px;
+}
+
+#about h3 {
+  color: #578ca9;
+  font-size: 30px;
+  font-variant: small-caps;
+}
+
+#about .two-thirds-width {
+  padding-left: 50px;
+  padding-top: 50px;
+  width: 600px;
+}
+
+#about p {
+  font-size: 22px;
+}
+
+/***** SKILLS *****/
+
+#skills .third-width {
+  width: 300px;
+}
+
+#front-end {
+  padding-left: 225px;
+}
+
+#front-end, #visual-design {
+  font-size: 22px;
+  line-height: 48px;
+  padding-top: 50px;
+}
+
+#skills ul li {
+  list-style-type: none;
+}
+
+#skills p {
+  clear: both;
+  font-size: 22px;
+  padding-left: 265px;
+}
+
+#header-icon {
+  text-align: center;
+}
+
+#skills h3 {
+  color: #57a98c;
+  font-size: 30px;
+  font-variant: small-caps;
+}
+
+/***** CONTACT *****/
+
+#contact .third-width {
+  padding-left: 200px;
+  text-align: center;
+  width: 300px;
+}
+
+#contact h3 {
+  color: #8c8c8c;
+  font-size: 30px;
+  font-variant: small-caps;
+}
+
+#contact .two-thirds-width {
+  padding-left: 100px;
+  padding-top: 50px;
+  width: 600px;
+}
+
+#contact p {
+  font-size: 22px;
+}
+
+#email {
+  color: #8c8c8c;
+  text-decoration: none;
+}
+
+#contact ul {
+  list-style: none;
+  padding-left: 0px;
+  padding-top: 50px;
+}
+
+#contact ul li {
+  display: inline-block;
+}
+
+#contact ul img {
+  padding-right: 25px;
+}
+
+/***** FOOTER *****/
+
+footer {
+  height: 100px;
+}
+
+h4 {
+  color: #8c8c8c;
+  font-size: 18px;
+  font-variant: small-caps;
+  text-align: center;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer p {
+  font-size: 14px;
+  padding-left: 50px;
+}
