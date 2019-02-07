@@ -6,15 +6,10 @@ body {
 
 #about, #contact {
   background-color: #f9f9f9;
-  height: 650px;
-}
-
-#skills {
-  height: 650px;
-  background-color: #fff;
 }
 
 #about, #skills, #contact {
+  height: 650px;
   padding-top: 200px;
 }
 
