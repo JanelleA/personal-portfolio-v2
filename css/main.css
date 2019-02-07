@@ -4,9 +4,17 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
-#about, #skills, #contact {
-  background-color: #fafafa;
+#about, #contact {
+  background-color: #eee;
   height: 650px;
+}
+
+#skills {
+  height: 650px;
+}
+
+#about, #skills, #contact {
+  padding-top: 200px;
 }
 
 /***** GRID *****/
@@ -58,6 +66,8 @@ nav ul li a {
   font-size: 18px;
   padding-right: 80px;
   text-decoration: none;
+  z-index: 10;
+  position: relative;
 }
 
 /***** HOMEPAGE *****/
